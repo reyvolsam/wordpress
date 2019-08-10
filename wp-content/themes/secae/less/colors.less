@@ -1,0 +1,285 @@
+/*
+	Theme Name: Secae - Capacitación y Asesoría
+	Theme URI: http://www.secaeintegral.com/
+	Author: InovaStudio
+	Author URI: http://innovaestudio.com.mx/
+	Description: Nuestro tema por defecto de 2019 es limpio, enfocado un diseño claro. La tipografía es sencilla, clara y legible en una gran variedad de tamaños de pantalla, además de disponible en multitud de idiomas. Lo hemos diseñado pensando primero en su uso móvil, lo que implica que tu contenido ocupará el centro de la escena independientemente de como lleguen tus visitantes, ya sea desde un móvil inteligente, una tableta, un portátil o un ordenador de escritorio.
+	Version: 1.0.0
+	Licence: GNU General Public licence or later
+	Tags: Secae Capacitación y Asesoría
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+@texto: #666;
+@blanco: #ffffff;
+@rojo: #d41f15;
+@azul: #081c72;
+@azul1: #12458e;
+@rojo1: #e02110;
+@rojodeg: #d01e15;
+@azuldeg: #081c72;
+@moradodeg: #511a4d;
+
+.body {
+	p {
+		font-size: 1.1em;
+	}
+}
+
+.btn_secae {
+	background: none;
+	box-shadow: none;
+	border: 3px solid @rojo;
+	border-radius: 2.5em;
+	padding: 0.3em 2em 2.5em 2em !important;
+}
+.btn_secae:hover, .btn_secae:active, .btn_secae:focus {
+	background: @rojo;
+	box-shadow: none;
+	border: 3px solid @rojo;
+	border-radius: 2.5em;
+	color: @blanco !important;
+	a {
+		color: @blanco !important;
+	}
+}
+.btnsicae {
+	background: @blanco;
+	color: @texto;
+	font-weight: bold;
+}
+.btnsicae:hover, .btnsicae:active, .btnsicae:focus {
+	background: @blanco;
+	color: @rojo;
+	font-weight: bold;
+}
+.btn {
+	border-radius: 2.5em;
+}
+.flexi {
+	display: block;
+	text-align: center;
+	@media screen and (min-width: 991px){
+		text-align: left;
+        display: flex;
+		justify-content: center;
+		align-items: center;
+    }
+}
+.current-menu-item {
+	a {
+		font-weight: 400;
+		border-top: 2px solid red;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family:'Font-Name';
+	src:url('fonts/font-name.eot');
+	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-name.woff') format('woff'),
+		url('fonts/font-name.ttf') format('truetype'),
+		url('fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:@azul;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:@azul;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:@azul;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}
